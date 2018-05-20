@@ -1,0 +1,299 @@
+@charset "utf-8";
+/* example.com "BUGS" CSS */
+
+/* Autor: Balázs Szilágyi, zyxneo@gmail.com */
+
+body{
+	padding:0;
+	margin:0;
+	background-color:#fff;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#4F606C;
+	line-height:18px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-style:italic;
+	font-weight:bold;
+}
+a:link, a:visited{
+	color:#EE7E1A;
+	text-decoration:none;
+	outline:none;
+}
+a:hover{
+	text-decoration:underline;
+	outline:none;
+}
+ul{
+	margin:0;
+}
+#wrapper{
+	background-image:url(../images/clouds.jpg);
+	background-repeat:repeat-x;
+	background-position:center top;
+	background-color:#fff;
+	border-top:3px solid #EE7E1A;
+}
+/* MAIN */
+#main{
+	margin:0 auto 0 auto;
+	position:relative;
+	z-index:1;
+	width:916px;
+	clear:both;
+}
+/* HEADER */
+#header{
+	float:left;
+}
+#header h1{
+	padding:0;
+	margin:0;
+}
+#header h1 a{
+	display:block;
+	float:left;
+}
+#header h1 a span{
+	display:block;
+	position:absolute;
+	float:left;
+	width:335px;
+	height:399px;
+	text-indent:-9999px;
+	background-image:url(../images/the_bug.png);
+	background-position:0 0;
+	background-repeat:no-repeat;
+	z-index:4;
+}
+#header p{
+	display:block;
+	position:absolute;
+	width:229px;
+	height:203px;
+	top:138px;
+	right:-24px;
+	padding:0;
+	margin:0;
+	text-indent:-9999px;
+	background-image:url(../images/butterfly.png);
+	background-position:0 0;
+	background-repeat:no-repeat;
+	z-index:5;
+}
+/* NAV */
+#nav{
+	float:right;
+	width:600px;
+	height:209px;
+	background-image:url(../images/collect.png);
+	background-position:0 0;
+	background-repeat:no-repeat;
+}
+#nav ul{
+	display:block;
+	padding:0;
+	margin:38px 0 0 40px;
+}
+#nav li{
+	display:block;
+	float:left;
+}
+#nav a{
+	display:block;
+	float:left;
+}
+#nav a span{
+	display:block;
+	width:97px;
+	height:148px;
+	padding:0px;
+	margin:0px;
+	text-indent:-9999px;
+}
+#btnHome a span{
+	background-image:url(../images/insects.jpg);
+	background-position:0 444px;
+}
+#btnAbout a span{
+	width:92px;
+	margin-left:46px;
+	background-image:url(../images/insects.jpg);
+	background-position:-97px 444px;
+}
+#btnContact a span{
+	width:98px;
+	margin-left:37px;
+	background-image:url(../images/insects.jpg);
+	background-position:-189px 444px;
+}
+#btnLinks a span{
+	width:102px;
+	margin-left:47px;
+	background-image:url(../images/insects.jpg);
+	background-position:-287px 444px;
+}
+/********************************/
+
+#btnHome a:visited span{
+	background-position:0 148px;
+}
+#btnAbout a:visited span{
+	background-position:-97px 148px;
+}
+#btnContact a:visited span{
+	background-position:-189px 148px;
+}
+#btnLinks a:visited span{
+	background-position:-287px 148px;
+}
+/********************************/
+
+#btnHome a:hover span{
+	background-position:0 296px;
+}
+#btnAbout a:hover span{
+	background-position:-97px 296px;
+}
+#btnContact a:hover span{
+	background-position:-189px 296px;
+}
+#btnLinks a:hover span{
+	background-position:-287px 296px;
+}
+/********************************/
+
+#btnHome a:active span{
+	background-position:0 0px;
+}
+#btnAbout a:active span{
+	background-position:-97px 0px;
+}
+#btnContact a:active span{
+	background-position:-189px 0px;
+}
+#btnLinks a:active span{
+	background-position:-287px 0px;
+}
+
+/* CONTAINER */
+#container{
+	float:left;
+	position:relative;
+	padding-bottom:40px;
+	margin:0 0 -39px 0;
+	background-image:url(../images/tree.png);
+	background-repeat:no-repeat;
+	background-position:0px bottom;
+	z-index:2;
+}
+#content{
+	float:right;
+	position:relative;
+	width:566px;
+	padding:12px;
+	margin-left:10px;
+	margin-bottom:60px;
+	background-color:#fff;
+	background-image:url(../images/textil.gif);
+	background-repeat:repeat;
+	border:1px solid #EDEFF1;
+	text-align:justify;
+	z-index:1;
+}
+
+/* SIDEBAR */
+#sidebar{
+	float:left;
+	width:310px;
+	padding-top:176px;
+}
+.flickr{
+	float:left;
+}
+.flickr_badge_image{
+	float:left;
+	padding:5px;
+	margin:5px;
+	background-color:#fff;
+	border:1px solid #ccc;
+}
+.flickr_badge_image a{
+	display:block;
+	float:left;
+	height:75px;
+	border:1px solid #000;
+}
+.flickr_badge_image a img{
+	border:none;
+}
+.links{
+	clear:both;
+	position:absolute;
+	bottom:0;
+	margin-bottom:190px;
+	margin-left:-15px;
+}
+.links ul{
+	padding:0;
+	margin:0;
+}
+.links li{
+	padding:0;
+	margin:0;
+	list-style-type:none;
+}
+.links li a, .links li a:visited{
+	padding:2px 0 2px 22px;
+	background-image:url(../images/coccinella.png);
+	background-repeat:no-repeat;
+	background-position:left 0;
+}
+.links li a:hover{
+	background-position:left -19px;
+}
+/* FOOTER */
+#footer{
+	clear:both;
+	position:relative;
+	height:300px;
+	background-image:url(../images/grass.png);
+	background-repeat:repeat-x;
+	background-position:center top;
+	z-index:0;
+}
+#footer p{
+	display:block;
+	position:relative;
+	padding:100px 20px 0;
+	margin:0 auto;
+	width:916px;
+	height:200px;
+	background-image:url(../images/worms.png);
+	background-repeat:no-repeat;
+	background-position:116px 141px;
+	color:#fff;
+	text-indent:-43px;
+	text-align:right;
+}
+#footer a, #footer a:hover{
+	display:block;
+	float:left;
+	position:relative;
+	padding:0;
+	margin:23px 0 0 0px;
+	width:916px;
+	height:158px;
+	overflow:hidden;
+	background-image:url(../images/worm_hover.png);
+	background-position:-200px top;
+	background-repeat:no-repeat;
+	text-align:right;
+}
+#footer a:hover{
+	background-position:96px top;
+}
+
+
+
